@@ -1,0 +1,32 @@
+.navbar{
+    height: 40px;
+    display: flex;
+    
+    background-color: black;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.item{
+    display: flex;
+    align-items: center;
+}
+.logoimg{
+    
+    height: 80%;
+
+    border-radius: 50%;
+}
+
+.nav-items{
+    color: white;
+    margin-left: 10px;
+}
+.nav-items:hover{
+    background-color: rgb(35, 35, 35);
+    cursor: pointer;
+    text-decoration: underline;
+}
