@@ -49,3 +49,21 @@ export const skills2 = [
     img: "https://imgs.search.brave.com/ZDmDAhZChCpqCWChhzMv_5ogomM9s3B_lNoul2Lnldg/rs:fit:844:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC44/U1ZnZ2d4UWNPNUw2/RHdfNjFhYzRRSGFF/SyZwaWQ9QXBp",
   }
 ];
+export const projects=[
+  {
+    Name:"Amazon Clone",
+    link:"https://imgs.search.brave.com/h4qhNDB92m4yUnVlA0053XkNdanQSKV0TMRco2JFu_0/rs:fit:948:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5z/bVVTRy16akFFUzR5/OEpjSmlFak5nSGFE/dCZwaWQ9QXBp"
+  },
+  {
+    Name:"Netflix-clone",
+    link:"https://imgs.search.brave.com/3WjOAHZre-WjF6hS6kSrYHExY7azoQw_WDi0uPy3qwU/rs:fit:844:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5h/MUFyY0pKN0l4d3F0/OWxIS0tmVWNRQUFB/QSZwaWQ9QXBp"
+  },
+  {
+    Name:"Weather app",
+    link:"https://imgs.search.brave.com/nwLjvrs82AaHoajmZUDACj_fSppofUW5xNOyRy2ZJlg/rs:fit:711:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5W/azlGX3cxcDh5Zmtq/VUQxTUpacWhnRXNE/SSZwaWQ9QXBp"
+  },
+  {
+    Name:"Portfolio website",
+    link:"https://imgs.search.brave.com/0-0ka2sV9PxwroXIfOWKnStGf6QYRvnDQ1N-gZuoKj0/rs:fit:711:225:1/g:ce/aHR0cHM6Ly90c2U0/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5z/Q1J2UU9ZQm9Cenpj/a1BBN2tscm9BSGFF/OCZwaWQ9QXBp"
+  }
+]

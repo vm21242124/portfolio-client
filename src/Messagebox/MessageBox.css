@@ -1,0 +1,52 @@
+.msgbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Slabo 27px', serif;
+    background-color: white;
+    margin: 20px;
+    overflow: hidden;
+}
+.hes{
+    font-family: 'Source Serif Pro', serif;
+}
+.frm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.inpr{
+   
+    width: 200px;
+    margin-left: 10px;
+    border-radius: 20px;
+    padding-left: 5px;
+    background-color: transparent;
+    
+}
+.t{
+    height: 100px;
+    width: 400px;
+    padding-top: 5px;
+}
+.btn {
+    display: inline-block;
+    padding: 0.35em 1.2em;
+    border: 0.1em solid #000000;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: #000000;
+    text-align: center;
+    transition: all 0.2s;
+  }
+  .btn:hover {
+    color: #ffffff;
+    background-color: #000000;
+  }
+  

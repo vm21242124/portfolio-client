@@ -1,14 +1,23 @@
-.skil{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: white;
-    height: 280px;
-    width: 200px;
+.skil {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  margin: 10px;
+  height: 200px;
+  width: 180px;
+  transition: transform 2s;
+  cursor: pointer;
+  transform-style: preserve-3d;
 }
+.skil:hover {
+    transform: rotateY(360deg);
+    background-color: black;
+    color: white;
 
-.p1{
-    height: 70px;
-    border-radius: 50%;
+}
+.p1 {
+  height: 70px;
+  border-radius: 50%;
 }

@@ -20,8 +20,8 @@ const Main = () => {
           welcome to my profile I am full stack developer working with new tech
           stack MERN
         </p>
-        <button className="ln">Linkden</button>
-        <button className="nn">Know More</button>
+        <button className="btn">Linkden</button>
+        <button className="btn">Know More</button>
       </div>
       <div className="rightside">
         <img className="hero" src={vm} alt="myimg" />
