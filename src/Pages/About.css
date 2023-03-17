@@ -42,14 +42,15 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+  background-color: black;
 }
 .contact-details{
   display: flex;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
   flex-direction: column;
   padding-left: 10px;
 
-  width: 100%;
+  
   background-color: rgb(0, 0, 0);
   color: white;
 }
@@ -60,11 +61,27 @@
   border-radius: 50%;
   border: 2px solid red;
 }
+@media only screen and (max-width: 714px) {
+  .vm{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  width: 100%;
+
+  }.profiles{
+    flex-wrap: wrap;
+  }
+  .contact-details{
+    justify-content: center;
+  }
+ 
+  
+}
 
 .cover {
  display: flex;
  justify-content: flex-end;
   height: 100px;
-  width: 100%;
+  /* width: 80%; */
   background-color: black;
 }

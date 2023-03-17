@@ -1,8 +1,8 @@
 import React from 'react'
-
+import MessageBox from '../components/Messagebox/MessageBox'
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <div><MessageBox/></div>
   )
 }
 

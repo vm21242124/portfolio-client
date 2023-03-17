@@ -1,7 +1,7 @@
 .navbar{
-    height: 40px;
+    height: 60px;
     display: flex;
-    
+    overflow: hidden;
     background-color: black;
 }
 .logo{
@@ -9,7 +9,9 @@
     align-items: center;
     margin-right: 20px;
     margin-left: 20px;
+    cursor: pointer;
 }
+
 .item{
     display: flex;
     align-items: center;
@@ -21,6 +23,8 @@
     height: 80%;
 
     border-radius: 50%;
+    border: 1px solid red;
+
 }
 
 .nav-items{
