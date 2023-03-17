@@ -13,6 +13,8 @@
 .item{
     display: flex;
     align-items: center;
+    font-family: 'Slabo 27px', serif;
+
 }
 .logoimg{
     

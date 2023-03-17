@@ -1,6 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 import vm from "../../Assets/vm.jpg";
+import { NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
     <div className="navbar">
@@ -8,10 +9,18 @@ const Navbar = () => {
         <img src={vm} alt="logo" className="logoimg" />
       </div>
       <div className="item">
-        <span className="nav-items">Home</span>
-        <span className="nav-items">Project</span>
-        <span className="nav-items">Skills</span>
-        <span className="nav-items">About</span>
+        <NavLink to="/">
+          <span className="nav-items">Home</span>
+        </NavLink>
+        <NavLink to="/contact">
+          <span className="nav-items">contact</span>
+        </NavLink>
+        <NavLink to="/about">
+          <span className="nav-items">About</span>
+        </NavLink>
+        <NavLink to="/achivement"> 
+          <span className="nav-items">Achivement</span>
+        </NavLink>
       </div>
     </div>
   );

@@ -1,6 +1,6 @@
 import React from "react";
 import "./Main.css";
-import vm from "../../Assets/vm.jpg";
+import newvm from "../../Assets/newvm.jpg";
 // import {BiPhoneCall} from "react-icons/bi"
 // import {AiFillLinkedin,AiFillGithub,AiOutlineMail} from "react-icons/ai"
 const Main = () => {
@@ -24,7 +24,7 @@ const Main = () => {
         <button className="btn">Know More</button>
       </div>
       <div className="rightside">
-        <img className="hero" src={vm} alt="myimg" />
+        <img className="hero" src={newvm} alt="myimg" />
       </div>
     </div>
   );
