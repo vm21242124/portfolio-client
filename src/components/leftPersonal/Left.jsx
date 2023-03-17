@@ -4,11 +4,11 @@ import { personal } from "../../Tempdata";
 
 const Left = () => {
   return (
-    <div>
+    <div className="lefti">
       <h3>Education: </h3>
-      <span>{personal.c1}</span>
+      <h4>{personal.c1}</h4>
       <p>{personal.education1}</p>
-      <span>{personal.c2}</span>
+      <h4>{personal.c2}</h4>
       <p>{personal.education2}</p>
       <h3>Skills:</h3>
       <h4>Frontend</h4>

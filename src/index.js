@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import About from "./About";
+import About from "./Pages/About";
 import App from "./App";
 import Navbar from "./components/navbar/Navbar";
-import Contact from "./Contact";
+import Contact from "./Pages/Contact";
 import "./index.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));

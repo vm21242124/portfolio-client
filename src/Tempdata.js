@@ -52,15 +52,18 @@ export const skills2 = [
 export const projects=[
   {
     Name:"Amazon Clone",
-    link:"https://imgs.search.brave.com/h4qhNDB92m4yUnVlA0053XkNdanQSKV0TMRco2JFu_0/rs:fit:948:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5z/bVVTRy16akFFUzR5/OEpjSmlFak5nSGFE/dCZwaWQ9QXBp"
+    link:"https://imgs.search.brave.com/h4qhNDB92m4yUnVlA0053XkNdanQSKV0TMRco2JFu_0/rs:fit:948:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5z/bVVTRy16akFFUzR5/OEpjSmlFak5nSGFE/dCZwaWQ9QXBp",
+    plink:"https://github.com/vm21242124/amazon-clone",
   },
   {
     Name:"Netflix-clone",
-    link:"https://imgs.search.brave.com/3WjOAHZre-WjF6hS6kSrYHExY7azoQw_WDi0uPy3qwU/rs:fit:844:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5h/MUFyY0pKN0l4d3F0/OWxIS0tmVWNRQUFB/QSZwaWQ9QXBp"
+    link:"https://imgs.search.brave.com/3WjOAHZre-WjF6hS6kSrYHExY7azoQw_WDi0uPy3qwU/rs:fit:844:225:1/g:ce/aHR0cHM6Ly90c2Uz/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5h/MUFyY0pKN0l4d3F0/OWxIS0tmVWNRQUFB/QSZwaWQ9QXBp", plink:"https://github.com/vm21242124/netflix_clone"
   },
   {
     Name:"Weather app",
     link:"https://imgs.search.brave.com/nwLjvrs82AaHoajmZUDACj_fSppofUW5xNOyRy2ZJlg/rs:fit:711:225:1/g:ce/aHR0cHM6Ly90c2Uy/Lm1tLmJpbmcubmV0/L3RoP2lkPU9JUC5W/azlGX3cxcDh5Zmtq/VUQxTUpacWhnRXNE/SSZwaWQ9QXBp"
+    ,
+    plink:"https://github.com/vm21242124/weather-app"
   },
   {
     Name:"Portfolio website",
@@ -69,10 +72,10 @@ export const projects=[
 ]
 export const personal={
   Name:"vinod mali",
-  education1:"MCA-24",
+  education1:"MCA-2024",
   c1:"INSTITUTE OF MANAGEMENT RESEARCH AND DEVELOP MENT, SHIRPUR",
   c2:"S.S.V.P.S COLLAGE OF SHINDKHEDA",
-  education2:"B.Sc(comp)",
+  education2:"B.Sc(comp)-2022",
   education3:"12th",
   summery:"I am full stack web developer where i have project experiance in react and Node js ",
   leetcode:"https://leetcode.com/vm2124/",

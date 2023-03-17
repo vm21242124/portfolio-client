@@ -1,9 +1,9 @@
 import React from "react";
 import "./About.css";
-import newvm from "./Assets/newvm.jpg";
+import newvm from "../Assets/newvm.jpg";
 
-import { personal } from "./Tempdata";
-import Left from "./components/leftPersonal/Left";
+import { personal } from "../Tempdata";
+import Left from "../components/leftPersonal/Left";
 import { NavLink } from "react-router-dom";
 
 const About = () => {

@@ -1,11 +1,15 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 import './Project.css'
-const ProjectCart = ({Name,link}) => {
+const ProjectCart = ({Name,link ,lin}) => {
   return (
     <div className='projectcart'>
         <img className='projectimg' src={link} alt="" />
         <h4>{Name}</h4>
-        <span className='btnview'>view</span>
+        <NavLink to={lin} >
+
+        <button className='btn'>view</button>
+        </NavLink>
     </div>
   )
 }

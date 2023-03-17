@@ -11,7 +11,7 @@ const Project = () => {
       </div>
       <div className="prj">
         {projects.map((item, id) => (
-          <ProjectCart key={id} Name={item.Name} link={item.link} />
+          <ProjectCart key={id} Name={item.Name} link={item.link}  lin={item.plink}/>
         ))}
       </div>
     </div>
